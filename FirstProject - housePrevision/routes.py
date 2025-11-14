@@ -1,5 +1,5 @@
-from fastapi import APIRouter
-
+from fastapi import APIRouter, HTTPException
+from typing import List
 from models import CasaInput, PrevisaoOutput, HealthResponse
 from ml_service import ml_service
 

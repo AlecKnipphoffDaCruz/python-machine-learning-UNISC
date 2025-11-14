@@ -4,7 +4,7 @@ from typing import List, Optional
 from config import settings
 
 
-class MLService:
+class ml_service:
     """Serviço responsável pelo modelo de Machine Learning"""
 
 
