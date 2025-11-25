@@ -1,0 +1,3 @@
+Best model: RandomForest
+RMSE: 177649.63028291045
+Used features: ['tipo_imovel', 'area_m2', 'quartos', 'suites', 'banheiros', 'vagas_garagem', 'bairro', 'pet_friendly', 'mobiliado', 'condominio_valor', 'iptu_mensal', 'proximidade_centro', 'andar', 'elevador', 'area_privativa_m2', 'churrasqueira', 'piscina', 'area_servico', 'armarios_embutidos', 'seguranca_24h', 'playground', 'academia', 'salao_festas', 'sacada_varanda', 'quintal', 'estado_conservacao', 'orientacao_solar']

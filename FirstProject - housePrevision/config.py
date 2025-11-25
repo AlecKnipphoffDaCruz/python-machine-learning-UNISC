@@ -11,8 +11,8 @@ class Settings:
 
     # Caminhos dos arquivos
     BASE_DIR = Path(__file__).parent
-    MODEL_PATH = BASE_DIR / "modelo_casas.pkl"
-    COLUMNS_PATH = BASE_DIR / "colunas.pkl"
+    MODEL_PATH = BASE_DIR / "models/best_model.pkl"
+    COLUMNS_PATH = BASE_DIR / "models/columns.pkl"
 
     # Configurações do servidor
     HOST = "0.0.0.0"

@@ -1,32 +1,45 @@
 import pandas as pd
-import joblib as joblib
+import joblib
 
-# Carregar modelo e colunas
-modelo = joblib.load("modelo_casas.pkl")
-colunas = joblib.load("colunas.pkl")
+# Carregar pipeline completo (pré-processamento + modelo)
+modelo = joblib.load("models/best_model.pkl")
+features = joblib.load("models/columns.pkl")
 
-# Dados novos (você só precisa fornecer os valores principais)
-dados_novos = {
-    "area": 100,
-    "quartos": 5,
-    "banheiros": 3,
-    "regiao": "norte"
+# --- Dados novos (somente as features brutas) ---
+dados = {
+    "tipo_imovel": "casa",
+    "area_m2": 120,
+    "quartos": 3,
+    "suites": 1,
+    "banheiros": 2,
+    "vagas_garagem": 2,
+    "bairro": "Centro",
+    "pet_friendly": "sim",
+    "mobiliado": "nao",
+    "condominio_valor": 350,
+    "iptu_mensal": 90,
+    "proximidade_centro": "perto",
+    "andar": None,
+    "elevador": "nao",
+    "area_privativa_m2": 110,
+    "churrasqueira": "sim",
+    "piscina": "nao",
+    "area_servico": "sim",
+    "armarios_embutidos": "sim",
+    "seguranca_24h": "nao",
+    "playground": "nao",
+    "academia": "nao",
+    "salao_festas": "nao",
+    "sacada_varanda": "sim",
+    "quintal": "sim",
+    "estado_conservacao": "novo",
+    "orientacao_solar": "norte",
 }
 
+# Criar DataFrame com apenas as colunas brutas
+df = pd.DataFrame([dados], columns=features)
 
-# Criar DataFrame vazio com todas as colunas do treino
-nova_casa = pd.DataFrame(0, index=[0], columns=colunas)
+# Previsão (pipeline cuida de tudo!)
+preco = modelo.predict(df)[0]
 
-# Preencher os valores numéricos
-nova_casa["area"] = dados_novos["area"]
-nova_casa["quartos"] = dados_novos["quartos"]
-nova_casa["banheiros"] = dados_novos["banheiros"]
-
-# Preencher coluna da região correta (One-Hot)
-col_regiao = f"regiao_{dados_novos['regiao']}"
-if col_regiao in nova_casa.columns:
-    nova_casa[col_regiao] = 1
-
-# Previsão
-preco_previsto = modelo.predict(nova_casa)
-print(f"Preço previsto: R$ {preco_previsto[0]:,.2f}")
+print(f"Preço previsto: R$ {preco:,.2f}")

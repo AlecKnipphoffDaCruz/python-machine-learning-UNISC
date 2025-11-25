@@ -1,72 +1,56 @@
-import pandas as pd
 import joblib
-from typing import List, Optional
+import pandas as pd
+from typing import List
 from config import settings
 
-
 class MLService:
-    """Serviço responsável pelo modelo de Machine Learning"""
-
     def __init__(self):
         self.modelo = None
-        self.colunas = None
+        self.features = None
         self.carregar_modelo()
 
     def carregar_modelo(self):
-        """Carrega o modelo e as colunas"""
         try:
-            self.modelo = joblib.load(settings.MODEL_PATH)
-            self.colunas = joblib.load(settings.COLUMNS_PATH)
-            print("✅ Modelo e colunas carregados com sucesso!")
-        except FileNotFoundError as e:
-            print(f"❌ Arquivo não encontrado: {e}")
-            print("⚠️  Certifique-se de que modelo_casas.pkl e colunas.pkl estão no diretório")
+            self.modelo = joblib.load(settings.MODEL_PATH)   # pipeline completo
+            self.features = joblib.load(settings.COLUMNS_PATH)
+            print("Modelo e features carregados.")
         except Exception as e:
-            print(f"❌ Erro ao carregar modelo: {e}")
+            print("Erro ao carregar modelo:", e)
+            self.modelo = None
+            self.features = None
 
     def modelo_carregado(self) -> bool:
-        """Verifica se o modelo está carregado"""
-        return self.modelo is not None and self.colunas is not None
+        return self.modelo is not None and self.features is not None
 
-    def obter_regioes(self) -> List[str]:
-        """Retorna lista de regiões disponíveis"""
-        if self.colunas is None:
-            return []
-        return [col.replace("regiao_", "") for col in self.colunas if col.startswith("regiao_")]
+    def _prepare_input_df(self, data: dict) -> pd.DataFrame:
+        if self.features is None:
+            raise Exception("Features não carregadas")
 
-    def validar_regiao(self, regiao: str) -> bool:
-        """Valida se a região existe"""
-        col_regiao = f"regiao_{regiao.lower()}"
-        return col_regiao in self.colunas
+        df = pd.DataFrame([{f: data.get(f, None) for f in self.features}])
 
-    def preparar_dados(self, area: float, quartos: int, banheiros: int, regiao: str) -> pd.DataFrame:
-        """Prepara os dados para previsão"""
-        dados = pd.DataFrame(0, index=[0], columns=self.colunas)
+        bool_map = {"sim": 1, "nao": 0, "não": 0}
 
-        dados["area"] = area
-        dados["quartos"] = quartos
-        dados["banheiros"] = banheiros
+        for b in [
+            "mobiliado","elevador","churrasqueira","piscina","area_servico",
+            "armarios_embutidos","seguranca_24h","playground","academia",
+            "salao_festas","sacada_varanda","quintal","pet_friendly"
+        ]:
+            if b in df.columns:
+                val = df.loc[0, b]
+                if isinstance(val, str):
+                    df.loc[0, b] = bool_map.get(val.lower(), val)
 
-        col_regiao = f"regiao_{regiao.lower()}"
-        if col_regiao in dados.columns:
-            dados[col_regiao] = 1
+        return df
 
-        return dados
-
-    def prever(self, area: float, quartos: int, banheiros: int, regiao: str) -> float:
-        """Faz a previsão do preço"""
+    def prever(self, input_data: dict) -> float:
         if not self.modelo_carregado():
             raise Exception("Modelo não carregado")
 
-        if not self.validar_regiao(regiao):
-            regioes_validas = self.obter_regioes()
-            raise ValueError(f"Região '{regiao}' inválida. Regiões válidas: {regioes_validas}")
+        df = self._prepare_input_df(input_data)
+        return float(self.modelo.predict(df)[0])
 
-        dados = self.preparar_dados(area, quartos, banheiros, regiao)
-        preco = self.modelo.predict(dados)[0]
-
-        return float(preco)
+    def obter_campos_necessarios(self) -> List[str]:
+        return self.features or []
 
 
-# Instância global para ser usada na API
 ml_service = MLService()

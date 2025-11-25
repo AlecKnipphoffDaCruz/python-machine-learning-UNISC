@@ -1,201 +1,198 @@
-area,quartos,banheiros,regiao,preco
-152,5,2,norte,516483
-229,5,3,norte,714897
-142,3,2,leste,466939
-64,5,3,sul,326903
-156,4,2,sul,493635
-121,5,1,sul,469347
-238,3,1,norte,649879
-70,3,2,centro,280716
-152,4,3,norte,528162
-171,2,1,centro,538333
-260,2,1,oeste,747482
-264,5,1,norte,787566
-124,1,2,norte,359755
-252,5,2,norte,742054
-137,4,3,sul,479016
-166,4,3,sul,536456
-149,4,3,centro,557002
-153,4,2,centro,529558
-201,4,2,norte,595990
-180,3,3,centro,588572
-199,2,3,sul,600758
-102,4,2,centro,393725
-51,1,3,oeste,206055
-137,1,1,sul,392373
-285,1,2,oeste,797399
-207,1,3,centro,612361
-87,3,2,leste,318079
-179,1,1,norte,487140
-241,4,2,sul,693538
-237,5,2,oeste,724350
-70,1,2,leste,230631
-210,3,2,leste,630731
-253,3,1,sul,723718
-107,1,2,sul,357007
-71,5,2,leste,344653
-285,1,3,norte,774301
-138,3,2,norte,434619
-98,2,3,oeste,339949
-268,4,1,norte,764629
-108,3,1,leste,359226
-219,1,1,leste,608954
-269,4,1,centro,790955
-237,1,3,leste,687886
-257,1,2,norte,723154
-64,2,1,oeste,242824
-239,4,2,centro,755534
-239,4,3,norte,736302
-224,2,3,oeste,666975
-239,3,3,norte,706981
-100,1,1,centro,325251
-157,5,2,leste,544453
-104,1,2,centro,334539
-293,1,2,leste,802990
-113,3,3,centro,437459
-298,1,1,sul,819022
-180,2,3,norte,554185
-278,2,3,norte,823063
-100,4,2,sul,354653
-184,5,3,leste,642446
-70,1,2,norte,228666
-122,1,1,sul,393796
-216,3,2,norte,613834
-67,2,1,oeste,235705
-181,5,2,leste,590512
-138,4,3,oeste,457522
-109,2,3,leste,366984
-63,4,1,sul,247317
-291,3,1,leste,825507
-299,3,1,leste,849335
-58,1,2,sul,242523
-139,5,2,leste,516508
-102,4,1,norte,338461
-179,2,3,centro,554531
-133,3,2,sul,442338
-141,1,2,centro,416095
-160,1,2,sul,496629
-237,4,1,sul,721088
-248,3,1,oeste,715616
-221,5,1,oeste,663237
-57,3,1,leste,264577
-224,4,1,centro,692709
-84,4,3,sul,369756
-255,3,3,leste,730611
-130,4,1,norte,408012
-213,3,2,sul,632604
-99,2,1,norte,303439
-153,3,3,leste,498498
-181,3,3,oeste,599956
-51,4,2,leste,236147
-183,4,3,norte,579652
-103,1,1,sul,304905
-155,1,2,centro,487788
-53,2,1,leste,221732
-103,1,1,sul,280007
-270,3,2,oeste,764317
-240,4,1,oeste,750553
-195,1,3,oeste,589146
-267,1,1,sul,697530
-93,2,2,leste,353523
-211,2,2,sul,609813
-251,3,2,sul,751085
-239,4,1,centro,733850
-277,2,2,centro,843714
-63,1,2,leste,262606
-144,4,1,centro,490020
-97,4,3,oeste,416931
-64,1,1,centro,247907
-249,2,2,oeste,749872
-255,1,2,leste,688201
-264,4,1,sul,778721
-298,5,3,sul,921168
-239,5,2,centro,732325
-89,3,2,oeste,318834
-262,1,2,norte,664215
-257,1,1,norte,672111
-286,3,2,norte,819350
-131,3,3,sul,472547
-160,3,2,sul,501481
-102,4,2,oeste,427572
-73,1,3,centro,259897
-203,4,2,norte,583432
-266,3,1,oeste,768889
-237,1,1,oeste,665181
-173,4,1,centro,566846
-286,4,3,oeste,828651
-90,3,2,centro,353217
-206,1,1,leste,543910
-64,3,3,centro,318393
-94,1,2,norte,292331
-114,5,3,norte,411202
-138,2,1,centro,429722
-120,2,1,leste,353815
-58,2,1,leste,218746
-137,3,3,norte,466602
-178,5,3,leste,590285
-285,1,1,oeste,787580
-185,4,3,sul,586894
-265,1,1,oeste,711642
-112,4,1,norte,372859
-188,1,2,leste,519295
-292,5,3,centro,903927
-130,4,1,sul,406042
-185,3,1,centro,616794
-212,1,3,norte,595705
-212,1,2,leste,586005
-82,4,2,centro,359279
-172,3,1,centro,542753
-54,3,3,sul,245580
-283,5,2,sul,859783
-280,3,3,leste,840150
-299,3,3,sul,851889
-90,3,1,centro,328483
-77,2,2,centro,296998
-184,5,1,norte,528961
-250,1,2,centro,684696
-121,4,2,leste,459837
-61,1,2,oeste,265399
-211,5,2,norte,652519
-82,4,2,norte,326531
-97,5,3,leste,413725
-296,3,1,leste,896577
-200,4,3,sul,657391
-111,3,2,norte,364941
-265,1,1,sul,688389
-86,1,2,centro,272871
-148,4,1,norte,469069
-221,4,3,norte,662372
-153,5,1,oeste,499054
-263,5,1,norte,759568
-268,3,1,centro,763369
-84,4,1,sul,348742
-242,1,1,sul,667632
-276,5,2,oeste,849840
-150,5,1,centro,559598
-224,1,1,sul,606547
-255,5,3,leste,785274
-180,3,1,centro,595462
-50,4,3,centro,300778
-54,1,2,oeste,194255
-267,4,1,sul,768693
-296,5,3,centro,907487
-191,5,3,sul,604844
-152,1,2,leste,468523
-76,3,1,oeste,333188
-186,2,1,leste,512028
-256,1,3,oeste,746259
-64,2,1,centro,241987
-139,2,3,oeste,452757
-91,3,1,norte,290652
-173,2,3,sul,510220
-254,2,1,sul,700970
-228,3,2,norte,643380
-112,2,1,leste,360409
-145,2,1,norte,416495
-280,2,2,centro,805221
-290,1,1,centro,781848
-101,1,2,sul,300964
-145,1,1,centro,452607
-181,3,3,sul,577518
-271,5,3,norte,802948
+tipo_imovel;area_m2;quartos;suites;banheiros;vagas_garagem;bairro;pet_friendly;preco_venda;preco_aluguel;ano_construcao;mobiliado;condominio_valor;iptu_mensal;proximidade_centro;andar;elevador;area_privativa_m2;churrasqueira;piscina;area_servico;armarios_embutidos;seguranca_24h;playground;academia;salao_festas;sacada_varanda;quintal;estado_conservacao;orientacao_solar
+casa;62;2;0;1;1;Linha Santa Cruz;sim;250000;NA;2018;nao;NA;46;afastado;NA;NA;62;sim;nao;sim;nao;nao;nao;nao;nao;nao;pequeno;usado;leste
+casa;67;2;0;1;1;João Alves;sim;245000;NA;2019;nao;NA;25;afastado;NA;NA;67;sim;nao;sim;nao;nao;nao;nao;nao;nao;medio;seminovo;norte
+casa;89;2;0;1;1;João Alves;sim;285000;NA;2017;nao;NA;29;afastado;NA;NA;89;sim;nao;sim;nao;nao;nao;nao;nao;sim;medio;usado;oeste
+apartamento;42;2;0;1;0;Arroio Grande;nao informado;178000;NA;2010;nao;180;35;afastado;2;nao;40;nao;nao;sim;nao;nao;nao;nao;nao;nao;NA;usado;sul
+apartamento;59;2;0;1;1;Universitário;sim;345000;NA;2021;nao;250;42;proximo;4;sim;55;sim;nao;sim;sim;sim;sim;nao;sim;sim;NA;seminovo;norte
+casa;55;2;0;1;1;Centro;sim;280000;NA;2015;nao;NA;65;centro;NA;NA;55;nao;nao;sim;nao;nao;nao;nao;nao;nao;nao tem;usado;leste
+apartamento;61;2;0;1;1;Esmeralda;sim;266000;NA;2016;nao;300;38;afastado;3;sim;58;nao;nao;sim;nao;nao;nao;nao;sim;sim;NA;usado;oeste
+casa;66;2;0;1;1;Arroio Grande;sim;240000;NA;2014;nao;NA;28;afastado;NA;NA;66;sim;nao;sim;nao;nao;nao;nao;nao;nao;pequeno;usado;sul
+apartamento;65;2;0;1;1;Arroio Grande;nao informado;290000;NA;2019;nao;220;32;afastado;1;nao;62;nao;nao;sim;nao;nao;nao;nao;nao;sim;NA;seminovo;norte
+casa;100;3;0;2;2;Margarida;sim;583000;NA;2020;nao;NA;75;proximo;NA;NA;100;sim;nao;sim;sim;nao;nao;nao;nao;nao;medio;seminovo;leste
+apartamento;40;1;0;1;1;Goiás;sim;305000;NA;2022;nao;200;35;proximo;6;sim;38;nao;nao;nao;sim;sim;nao;nao;nao;sim;NA;novo;norte
+casa;117;2;0;2;1;Ana Nery;sim;375000;NA;2016;nao;NA;25;afastado;NA;NA;117;sim;nao;sim;nao;nao;nao;nao;nao;nao;medio;usado;oeste
+apartamento;60;2;0;1;1;Senai;nao informado;373000;NA;2021;nao;280;40;proximo;3;sim;57;sim;nao;sim;nao;nao;nao;nao;sim;sim;NA;seminovo;sul
+casa;173;4;1;3;4;Esmeralda;sim;570000;NA;2018;nao;NA;85;afastado;NA;NA;173;sim;nao;sim;sim;nao;nao;nao;nao;nao;grande;usado;norte
+apartamento;73;3;0;1;1;Schulz;sim;350000;NA;2017;nao;250;44;proximo;2;nao;70;sim;nao;sim;nao;nao;nao;nao;nao;sim;NA;usado;leste
+casa;336;3;1;3;2;Centro;sim;1200000;NA;2019;nao;NA;316;centro;NA;NA;336;sim;sim;sim;sim;nao;nao;nao;nao;sim;medio;seminovo;norte
+apartamento;76;2;0;2;2;Centro;sim;430000;NA;2020;nao;350;92;centro;5;sim;72;sim;nao;sim;sim;sim;nao;nao;sim;sim;NA;seminovo;oeste
+casa;384;2;0;2;2;Centro;sim;800000;NA;2015;nao;NA;158;centro;NA;NA;384;sim;sim;sim;sim;nao;nao;nao;nao;nao;grande;usado;sul
+apartamento;80;2;0;1;1;Universitário;sim;395000;NA;2021;nao;280;55;proximo;4;sim;76;sim;nao;sim;sim;sim;sim;sim;sim;sim;NA;seminovo;norte
+casa;131;3;1;2;2;Country;sim;1160000;6500;2022;semi;350;129;afastado;NA;NA;131;sim;sim;sim;sim;sim;nao;nao;nao;sim;medio;novo;leste
+apartamento;97;3;1;2;1;Centro;sim;860000;NA;2023;semi;630;160;centro;8;sim;90;sim;nao;sim;sim;sim;sim;sim;sim;sim;NA;novo;norte
+casa;178;3;1;3;2;Country;sim;1320000;6500;2021;nao;500;145;afastado;NA;NA;178;sim;sim;sim;sim;sim;nao;nao;nao;sim;grande;seminovo;oeste
+apartamento;98;2;0;2;0;Centro;nao informado;350000;NA;2012;nao;300;82;centro;3;sim;95;sim;nao;sim;nao;sim;nao;nao;sim;sim;NA;usado;sul
+casa;186;3;1;3;2;Country;sim;1320000;6150;2020;nao;500;130;afastado;NA;NA;186;sim;sim;sim;sim;sim;nao;nao;nao;sim;medio;seminovo;norte
+apartamento;34;1;0;1;1;Centro;nao informado;460000;NA;2024;sim;400;75;centro;12;sim;32;nao;nao;nao;sim;sim;sim;sim;sim;sim;NA;novo;leste
+casa;274;3;1;3;2;Higienópolis;sim;1170000;NA;2019;nao;NA;155;proximo;NA;NA;274;sim;sim;sim;sim;nao;nao;nao;nao;sim;grande;seminovo;norte
+apartamento;127;3;1;2;2;Centro;sim;850000;NA;2022;semi;630;142;centro;7;sim;120;sim;nao;sim;sim;sim;sim;sim;sim;sim;NA;seminovo;oeste
+casa;77;2;0;2;1;Santo Inácio;sim;398000;NA;2023;nao;NA;48;proximo;NA;NA;77;sim;nao;sim;sim;nao;nao;nao;nao;nao;pequeno;novo;sul
+apartamento;139;2;0;2;2;Goiás;sim;895000;NA;2024;semi;450;120;proximo;9;sim;130;sim;nao;sim;sim;sim;sim;sim;sim;sim;NA;novo;norte
+casa;288;3;1;3;2;Renascença;sim;2300000;NA;2023;sim;NA;317;proximo;NA;NA;288;sim;sim;sim;sim;nao;nao;nao;nao;sim;grande;novo;leste
+apartamento;59;2;0;1;1;Goiás;sim;339000;NA;2020;nao;259;100;proximo;2;sim;56;nao;nao;sim;nao;sim;nao;nao;sim;sim;NA;seminovo;norte
+casa;150;3;1;2;2;Renascença;sim;890000;NA;2021;nao;NA;142;proximo;NA;NA;150;sim;nao;sim;sim;nao;nao;nao;nao;sim;medio;seminovo;oeste
+apartamento;60;2;0;1;1;Goiás;sim;389000;NA;2022;nao;300;95;proximo;4;sim;57;sim;nao;sim;nao;sim;nao;nao;sim;sim;NA;seminovo;sul
+casa;221;3;1;2;2;Renascença;sim;1200000;NA;2022;nao;NA;142;proximo;NA;NA;221;sim;sim;sim;sim;nao;nao;nao;nao;sim;grande;seminovo;norte
+apartamento;62;2;0;1;1;Goiás;sim;376000;NA;2021;nao;300;85;proximo;3;sim;59;sim;nao;sim;nao;sim;nao;nao;sim;sim;NA;seminovo;leste
+casa;130;2;0;1;2;Renascença;sim;600000;NA;2019;nao;NA;95;proximo;NA;NA;130;sim;nao;sim;nao;nao;nao;nao;nao;nao;medio;usado;norte
+apartamento;62;2;0;1;1;Goiás;sim;340000;NA;2020;nao;280;78;proximo;1;nao;59;nao;nao;sim;nao;nao;nao;nao;nao;sim;NA;usado;oeste
+casa;138;3;1;3;2;Renascença;sim;450000;NA;2015;nao;NA;79;proximo;NA;NA;138;sim;nao;sim;nao;nao;nao;nao;nao;nao;pequeno;usado;sul
+apartamento;60;2;0;1;1;Goiás;sim;430000;NA;2023;nao;320;88;proximo;6;sim;57;sim;nao;sim;sim;sim;nao;nao;sim;sim;NA;novo;norte
+casa;206;3;1;2;1;Renascença;sim;320000;NA;2008;nao;NA;55;proximo;NA;NA;206;sim;nao;sim;nao;nao;nao;nao;nao;nao;grande;reformar;leste
+apartamento;87;3;1;2;1;Higienópolis;sim;395000;NA;2018;nao;350;68;proximo;4;sim;82;sim;nao;sim;nao;sim;nao;nao;sim;sim;NA;usado;norte
+casa;60;2;0;1;1;Linha Santa Cruz;sim;260000;NA;2020;nao;NA;38;afastado;NA;NA;60;sim;nao;sim;nao;nao;nao;nao;nao;nao;pequeno;seminovo;oeste
+apartamento;74;3;0;1;0;Bonfim;sim;288000;NA;2014;nao;300;83;proximo;2;nao;70;nao;nao;sim;nao;nao;nao;nao;nao;sim;NA;usado;sul
+casa;72;2;0;1;0;Linha Santa Cruz;sim;350000;NA;2021;nao;NA;46;afastado;NA;NA;72;sim;nao;sim;nao;nao;nao;nao;nao;nao;pequeno;seminovo;norte
+apartamento;92;2;0;2;1;Bonfim;sim;375000;NA;2019;nao;280;67;proximo;3;sim;88;sim;nao;sim;nao;nao;nao;nao;sim;sim;NA;seminovo;leste
+casa;132;3;0;1;2;Linha Santa Cruz;sim;650000;NA;2022;nao;NA;108;afastado;NA;NA;132;sim;nao;sim;sim;nao;nao;nao;nao;sim;medio;seminovo;norte
+apartamento;62;2;0;1;1;Bonfim;sim;320000;NA;2020;nao;250;75;proximo;1;nao;59;nao;nao;sim;nao;nao;nao;nao;nao;nao;NA;usado;oeste
+casa;86;2;0;2;1;Linha Santa Cruz;sim;450000;NA;2023;nao;NA;65;afastado;NA;NA;86;sim;nao;sim;sim;nao;nao;nao;nao;nao;pequeno;novo;sul
+apartamento;120;2;0;1;2;Castelo Branco;sim;340000;NA;2016;nao;220;75;afastado;2;nao;115;sim;nao;sim;nao;nao;nao;nao;nao;sim;NA;usado;norte
+casa;65;2;0;1;1;Linha Santa Cruz;sim;320000;NA;2022;nao;NA;48;afastado;NA;NA;65;sim;nao;sim;nao;nao;nao;nao;nao;nao;pequeno;seminovo;leste
+apartamento;84;2;0;2;1;Castelo Branco;sim;290000;NA;2017;nao;200;62;afastado;1;nao;80;nao;nao;sim;nao;nao;nao;nao;nao;sim;NA;usado;norte
+casa;57;2;0;1;2;Linha Santa Cruz;sim;297000;NA;2021;nao;NA;42;afastado;NA;NA;57;sim;nao;sim;nao;nao;nao;nao;nao;nao;pequeno;seminovo;oeste
+apartamento;50;2;0;1;1;Esmeralda;sim;200000;NA;2015;nao;300;35;afastado;2;sim;47;nao;nao;sim;nao;nao;nao;nao;sim;nao;NA;usado;sul
+casa;50;2;0;2;1;Linha Santa Cruz;sim;330000;NA;2023;nao;NA;52;afastado;NA;NA;50;sim;nao;sim;nao;nao;nao;nao;nao;nao;pequeno;novo;norte
+apartamento;57;2;0;1;1;Independência;sim;250000;NA;2018;nao;180;38;afastado;1;nao;54;nao;nao;sim;nao;nao;nao;nao;nao;nao;NA;usado;leste
+casa;45;2;0;1;3;Linha Santa Cruz;sim;275000;NA;2020;nao;NA;35;afastado;NA;NA;45;sim;nao;sim;nao;nao;nao;nao;nao;nao;pequeno;seminovo;norte
+apartamento;138;3;1;1;1;Senai;sim;760000;NA;2022;semi;450;125;proximo;6;sim;130;sim;nao;sim;sim;sim;nao;nao;sim;sim;NA;seminovo;oeste
+casa;50;2;0;2;1;Linha Santa Cruz;sim;290000;NA;2022;nao;NA;45;afastado;NA;NA;50;sim;nao;sim;nao;nao;nao;nao;nao;nao;pequeno;seminovo;sul
+apartamento;68;3;0;1;1;Avenida;sim;305000;NA;2019;nao;280;48;proximo;2;sim;65;sim;nao;sim;nao;nao;nao;nao;sim;sim;NA;usado;norte
+casa;127;3;0;2;1;Linha Santa Cruz;sim;390000;NA;2018;nao;NA;58;afastado;NA;NA;127;sim;nao;sim;nao;nao;nao;nao;nao;nao;medio;usado;leste
+apartamento;170;3;1;3;2;Centro;sim;1680000;NA;2024;sim;700;185;centro;10;sim;160;sim;nao;sim;sim;sim;sim;sim;sim;sim;NA;novo;norte
+casa;296;3;1;3;2;Linha Santa Cruz;sim;479000;NA;2017;nao;NA;72;afastado;NA;NA;296;sim;sim;sim;sim;nao;nao;nao;nao;sim;grande;usado;oeste
+apartamento;113;2;0;2;1;Centro;sim;399000;NA;2016;nao;380;95;centro;5;sim;108;sim;nao;sim;nao;sim;nao;nao;sim;sim;NA;usado;sul
+casa;50;2;0;2;1;Linha Santa Cruz;sim;290000;NA;2021;nao;NA;42;afastado;NA;NA;50;sim;nao;sim;nao;nao;nao;nao;nao;nao;pequeno;seminovo;norte
+apartamento;244;3;1;4;2;Centro;sim;1500000;NA;2021;semi;550;195;centro;9;sim;235;sim;nao;sim;sim;sim;sim;sim;sim;sim;NA;seminovo;leste
+casa;49;2;0;1;1;João Alves;sim;245000;NA;2020;nao;NA;28;afastado;NA;NA;49;sim;nao;sim;nao;nao;nao;nao;nao;nao;pequeno;seminovo;norte
+apartamento;88;2;0;2;1;Centro;sim;628000;NA;2020;nao;420;125;centro;6;sim;82;sim;nao;sim;sim;sim;nao;nao;sim;sim;NA;seminovo;oeste
+casa;116;3;0;2;2;João Alves;sim;371000;NA;2021;nao;NA;48;afastado;NA;NA;116;sim;nao;sim;nao;nao;nao;nao;nao;nao;medio;seminovo;sul
+apartamento;88;2;0;2;1;Centro;sim;340000;NA;2012;nao;320;125;centro;4;sim;82;nao;nao;sim;nao;nao;nao;nao;nao;sim;NA;usado;norte
+casa;74;2;0;2;2;João Alves;sim;339000;NA;2022;nao;NA;50;afastado;NA;NA;74;sim;nao;sim;nao;nao;nao;nao;nao;nao;pequeno;seminovo;leste
+apartamento;147;2;0;2;2;Centro;sim;480000;NA;2018;nao;350;115;centro;5;sim;140;sim;nao;sim;sim;sim;nao;nao;sim;sim;NA;usado;norte
+casa;89;2;0;1;1;João Alves;sim;285000;NA;2019;nao;NA;29;afastado;NA;NA;89;sim;nao;sim;nao;nao;nao;nao;nao;nao;pequeno;usado;oeste
+apartamento;289;4;2;4;1;Centro;sim;1488000;NA;2020;semi;450;185;centro;8;sim;275;sim;nao;sim;sim;sim;sim;sim;sim;sim;NA;seminovo;sul
+casa;46;1;0;1;0;João Alves;nao informado;289000;NA;2023;nao;NA;32;afastado;NA;NA;46;nao;nao;sim;nao;nao;nao;nao;nao;nao;pequeno;novo;norte
+apartamento;258;3;2;5;2;Centro;sim;2500000;NA;2024;sim;1000;225;centro;12;sim;245;sim;sim;sim;sim;sim;sim;sim;sim;sim;NA;novo;leste
+casa;66;2;0;2;0;João Alves;sim;280000;NA;2020;nao;NA;35;afastado;NA;NA;66;sim;nao;sim;nao;nao;nao;nao;nao;nao;pequeno;seminovo;norte
+apartamento;231;3;1;3;2;Centro;sim;2130000;NA;2023;sim;700;195;centro;11;sim;220;sim;nao;sim;sim;sim;sim;sim;sim;sim;NA;novo;oeste
+casa;60;2;0;1;2;João Alves;sim;340000;NA;2022;nao;NA;42;afastado;NA;NA;60;sim;nao;sim;nao;nao;nao;nao;nao;nao;pequeno;seminovo;sul
+apartamento;200;3;1;3;2;Centro;sim;1484000;NA;2021;semi;1200;158;centro;9;sim;190;sim;nao;sim;sim;sim;sim;sim;sim;sim;NA;seminovo;norte
+casa;81;2;0;2;2;João Alves;sim;399000;NA;2023;nao;NA;55;afastado;NA;NA;81;sim;nao;sim;nao;nao;nao;nao;nao;nao;pequeno;novo;leste
+apartamento;205;3;1;4;2;Centro;sim;1250000;NA;2020;nao;697;158;centro;7;sim;195;sim;nao;sim;sim;sim;sim;sim;sim;sim;NA;seminovo;norte
+casa;154;2;0;1;2;João Alves;sim;498000;NA;2021;nao;NA;68;afastado;NA;NA;154;sim;nao;sim;sim;nao;nao;nao;nao;sim;medio;seminovo;oeste
+apartamento;75;2;0;2;1;João Alves;nao informado;NA;2000;2022;nao;280;14;afastado;3;sim;72;sim;nao;sim;nao;sim;nao;nao;sim;sim;NA;seminovo;sul
+casa;67;2;0;1;1;João Alves;sim;245000;NA;2019;nao;NA;25;afastado;NA;NA;67;sim;nao;sim;nao;nao;nao;nao;nao;nao;pequeno;usado;norte
+apartamento;48;1;0;1;1;Universitário;sim;NA;2220;2023;nao;200;3;proximo;5;sim;45;nao;nao;nao;sim;sim;nao;nao;sim;sim;NA;novo;leste
+casa;55;2;0;1;1;João Alves;sim;280000;NA;2021;nao;NA;32;afastado;NA;NA;55;sim;nao;sim;nao;nao;nao;nao;nao;nao;pequeno;seminovo;norte
+apartamento;40;1;0;1;1;Senai;sim;NA;2000;2022;nao;250;4;proximo;2;nao;38;nao;nao;nao;nao;nao;nao;nao;nao;nao;NA;seminovo;oeste
+casa;85;2;0;2;0;João Alves;sim;272000;NA;2018;nao;NA;28;afastado;NA;NA;85;sim;nao;sim;nao;nao;nao;nao;nao;nao;pequeno;usado;sul
+apartamento;84;2;0;2;1;Santo Inácio;sim;NA;2600;2021;nao;330;12;proximo;4;sim;80;sim;nao;sim;nao;sim;nao;nao;sim;sim;NA;seminovo;norte
+casa;220;3;1;4;2;Jardim Europa;sim;1430000;NA;2022;nao;NA;185;afastado;NA;NA;220;sim;sim;sim;sim;sim;nao;nao;nao;sim;grande;seminovo;leste
+apartamento;91;2;0;2;2;Centro;sim;NA;4400;2023;sim;350;15;centro;8;sim;86;sim;nao;sim;sim;sim;nao;sim;sim;sim;NA;novo;norte
+casa;328;3;2;4;4;Jardim Europa;sim;2970000;NA;2024;sim;NA;295;afastado;NA;NA;328;sim;sim;sim;sim;sim;nao;nao;nao;sim;grande;novo;oeste
+apartamento;85;2;0;1;1;Linha Santa Cruz;sim;NA;1600;2019;nao;220;12;afastado;1;nao;82;nao;nao;sim;nao;nao;nao;nao;nao;sim;NA;usado;sul
+casa;205;3;1;3;2;Jardim Europa;sim;970000;NA;2020;nao;NA;142;afastado;NA;NA;205;sim;sim;sim;sim;nao;nao;nao;nao;sim;medio;seminovo;norte
+apartamento;68;2;0;2;1;Bonfim;sim;NA;1400;2018;nao;250;3;proximo;2;nao;65;nao;nao;sim;nao;nao;nao;nao;nao;sim;NA;usado;leste
+casa;228;3;1;2;2;Jardim Europa;sim;1884000;NA;2023;semi;NA;225;afastado;NA;NA;228;sim;sim;sim;sim;sim;nao;nao;nao;sim;grande;novo;norte
+apartamento;56;2;0;1;1;Schulz;sim;NA;1500;2020;nao;250;4;proximo;1;nao;53;nao;nao;sim;nao;nao;nao;nao;sim;nao;NA;seminovo;oeste
+casa;229;4;1;3;4;Jardim Europa;sim;2190000;NA;2022;nao;NA;215;afastado;NA;NA;229;sim;sim;sim;sim;sim;nao;nao;nao;sim;grande;seminovo;sul
+apartamento;44;2;0;1;1;Centro;sim;NA;1150;2017;nao;250;8;centro;2;nao;42;nao;nao;sim;nao;nao;nao;nao;nao;nao;NA;usado;norte
+casa;148;3;0;2;4;Jardim Europa;sim;750000;NA;2019;nao;NA;98;afastado;NA;NA;148;sim;nao;sim;sim;nao;nao;nao;nao;nao;medio;usado;leste
+apartamento;70;2;0;1;0;Santo Antônio;sim;NA;1400;2016;nao;180;2;afastado;1;nao;68;nao;nao;sim;nao;nao;nao;nao;nao;nao;NA;usado;norte
+casa;263;3;1;4;2;Jardim Europa;sim;2590000;NA;2024;sim;NA;285;afastado;NA;NA;263;sim;sim;sim;sim;sim;nao;nao;nao;sim;grande;novo;oeste
+apartamento;106;2;0;1;1;Centro;sim;NA;2400;2019;nao;320;13;centro;4;sim;100;sim;nao;sim;nao;sim;nao;nao;sim;sim;NA;seminovo;sul
+casa;267;4;1;4;2;Country;sim;1738000;6150;2021;nao;350;165;afastado;NA;NA;267;sim;sim;sim;sim;sim;nao;nao;nao;sim;grande;seminovo;norte
+apartamento;186;3;1;2;2;Higienópolis;sim;NA;6800;2022;sim;350;13;proximo;6;sim;178;sim;nao;sim;sim;sim;sim;sim;sim;sim;NA;seminovo;leste
+casa;160;3;0;2;2;Várzea;sim;350000;NA;2017;nao;NA;50;afastado;NA;NA;160;sim;nao;sim;nao;nao;nao;nao;nao;nao;medio;usado;norte
+apartamento;126;2;0;3;1;Higienópolis;sim;NA;5000;2020;semi;350;33;proximo;5;sim;120;sim;nao;sim;sim;sim;nao;nao;sim;sim;NA;seminovo;oeste
+casa;145;3;0;2;2;São João;sim;350000;NA;2018;nao;NA;48;afastado;NA;NA;145;sim;nao;sim;nao;nao;nao;nao;nao;nao;medio;usado;sul
+apartamento;185;3;1;3;2;Country;sim;NA;6500;2023;semi;1000;19;afastado;NA;NA;180;sim;sim;sim;sim;sim;sim;nao;sim;sim;NA;novo;norte
+casa;78;2;0;1;2;Santo Antônio;sim;290000;NA;2019;nao;NA;28;afastado;NA;NA;78;sim;nao;sim;nao;nao;nao;nao;nao;nao;pequeno;usado;leste
+apartamento;187;3;1;4;2;Country;sim;NA;6150;2022;nao;500;19;afastado;NA;NA;182;sim;sim;sim;sim;sim;sim;nao;sim;sim;NA;seminovo;norte
+casa;110;3;0;2;1;Independência;sim;330000;NA;2016;nao;NA;42;afastado;NA;NA;110;sim;nao;sim;nao;nao;nao;nao;nao;nao;medio;usado;oeste
+apartamento;377;4;1;3;2;Country;sim;NA;9000;2021;sim;700;24;afastado;NA;NA;365;sim;sim;sim;sim;sim;sim;sim;sim;sim;NA;seminovo;sul
+casa;63;2;0;1;1;Dona Carlota;sim;220000;NA;2020;nao;NA;22;afastado;NA;NA;63;sim;nao;sim;nao;nao;nao;nao;nao;nao;pequeno;seminovo;norte
+apartamento;194;3;0;1;1;Country;sim;NA;7000;2020;nao;500;11;afastado;NA;NA;188;sim;sim;sim;sim;sim;nao;nao;sim;sim;NA;seminovo;leste
+casa;190;4;0;1;0;Monte Alverne;sim;380000;NA;2010;nao;NA;55;afastado;NA;NA;190;sim;nao;sim;nao;nao;nao;nao;nao;nao;grande;usado;norte
+apartamento;216;3;1;3;1;Santo Inácio;sim;NA;8350;2024;sim;110;7;proximo;7;sim;208;sim;sim;sim;sim;sim;sim;sim;sim;sim;NA;novo;oeste
+casa;104;3;0;2;1;Ana Nery;sim;400000;NA;2019;nao;NA;25;afastado;NA;NA;104;sim;nao;sim;nao;nao;nao;nao;nao;nao;medio;usado;sul
+apartamento;186;3;1;3;2;Country;sim;NA;6500;2022;semi;1000;15;afastado;NA;NA;180;sim;sim;sim;sim;sim;sim;nao;sim;sim;NA;seminovo;norte
+casa;64;2;0;2;1;Schulz;sim;320000;NA;2021;nao;NA;38;proximo;NA;NA;64;sim;nao;sim;nao;nao;nao;nao;nao;nao;pequeno;seminovo;leste
+apartamento;128;3;0;2;2;Renascença;nao informado;NA;2200;2018;nao;NA;8;proximo;NA;NA;128;sim;nao;sim;nao;nao;nao;nao;nao;sim;NA;usado;norte
+casa;384;4;2;4;2;Arroio Grande;sim;698000;NA;2018;nao;NA;85;afastado;NA;NA;384;sim;sim;sim;sim;nao;nao;nao;nao;sim;grande;usado;oeste
+apartamento;130;2;0;2;1;João Alves;sim;NA;3000;2023;nao;280;12;afastado;3;sim;125;sim;nao;sim;nao;nao;nao;nao;sim;sim;NA;novo;sul
+casa;281;4;0;2;2;Bom Jesus;sim;745000;NA;2016;nao;NA;125;proximo;NA;NA;281;sim;sim;sim;sim;nao;nao;nao;nao;sim;grande;usado;norte
+apartamento;48;2;0;1;0;Senai;sim;NA;1700;2019;nao;200;4;proximo;1;nao;45;nao;nao;sim;nao;nao;nao;nao;nao;nao;NA;usado;leste
+casa;86;2;0;1;1;Aliança;sim;329000;NA;2019;nao;NA;42;afastado;NA;NA;86;sim;nao;sim;nao;nao;nao;nao;nao;nao;pequeno;usado;norte
+apartamento;160;4;1;2;1;Higienópolis;sim;NA;2800;2017;nao;320;10;proximo;3;sim;155;sim;nao;sim;nao;nao;nao;nao;sim;sim;NA;usado;oeste
+casa;195;3;1;3;2;Country;sim;980000;NA;2020;nao;350;112;afastado;NA;NA;195;sim;sim;sim;sim;sim;nao;nao;nao;sim;medio;seminovo;sul
+apartamento;400;3;1;3;2;Jardim Europa;sim;NA;4400;2021;semi;NA;28;afastado;NA;NA;385;sim;sim;sim;sim;nao;nao;nao;nao;sim;NA;seminovo;norte
+casa;242;3;1;3;3;Centro;sim;2500000;NA;2023;sim;NA;285;centro;NA;NA;242;sim;sim;sim;sim;nao;nao;nao;nao;sim;medio;novo;leste
+apartamento;129;3;1;3;2;João Alves;sim;NA;3900;2024;nao;300;4;afastado;4;sim;122;sim;nao;sim;sim;sim;nao;nao;sim;sim;NA;novo;norte
+casa;70;2;0;1;1;Esmeralda;sim;185000;NA;2015;nao;NA;28;afastado;NA;NA;70;sim;nao;sim;nao;nao;nao;nao;nao;nao;pequeno;usado;oeste
+apartamento;192;3;1;2;1;Renascença;sim;NA;4500;2022;nao;NA;6;proximo;NA;NA;188;sim;nao;sim;sim;nao;nao;nao;nao;sim;NA;seminovo;sul
+casa;85;2;0;1;1;Aliança;sim;265000;NA;2018;nao;NA;35;afastado;NA;NA;85;sim;nao;sim;nao;nao;nao;nao;nao;nao;pequeno;usado;norte
+apartamento;118;3;0;1;2;Centro;sim;NA;4000;2019;nao;350;8;centro;3;nao;112;sim;nao;sim;nao;sim;nao;nao;sim;sim;NA;usado;leste
+casa;95;3;0;2;1;Bom Jesus;sim;310000;NA;2017;nao;NA;42;proximo;NA;NA;95;sim;nao;sim;nao;nao;nao;nao;nao;nao;pequeno;usado;norte
+apartamento;105;3;0;3;1;São João;sim;NA;2500;2020;nao;280;11;afastado;2;nao;100;sim;nao;sim;nao;nao;nao;nao;nao;sim;NA;seminovo;oeste
+casa;120;3;0;2;2;Senai;sim;295000;NA;2016;nao;NA;45;proximo;NA;NA;120;sim;nao;sim;nao;nao;nao;nao;nao;nao;medio;usado;sul
+apartamento;101;3;0;2;1;Centro;sim;NA;1800;2015;nao;450;13;centro;2;nao;95;nao;nao;sim;nao;sim;nao;nao;nao;nao;NA;usado;norte
+casa;75;2;0;1;1;Santa Vitória;sim;165000;NA;2014;nao;NA;22;afastado;NA;NA;75;sim;nao;sim;nao;nao;nao;nao;nao;nao;pequeno;usado;leste
+apartamento;151;3;0;1;2;Renascença;sim;NA;2200;2017;nao;NA;6;proximo;NA;NA;145;sim;nao;sim;nao;nao;nao;nao;nao;sim;NA;usado;norte
+casa;180;3;1;2;2;Goiás;sim;520000;NA;2020;nao;NA;85;proximo;NA;NA;180;sim;nao;sim;sim;nao;nao;nao;nao;nao;medio;seminovo;oeste
+apartamento;70;2;0;1;1;Bonfim;sim;NA;2100;2021;nao;295;6;proximo;3;sim;67;sim;nao;sim;nao;nao;nao;nao;sim;sim;NA;seminovo;sul
+casa;92;2;0;1;1;Pedreira;sim;195000;NA;2013;nao;NA;28;afastado;NA;NA;92;sim;nao;sim;nao;nao;nao;nao;nao;nao;pequeno;usado;norte
+apartamento;72;2;0;1;1;Santo Inácio;sim;NA;3200;2022;nao;300;12;proximo;4;sim;68;sim;nao;sim;nao;sim;nao;nao;sim;sim;NA;seminovo;leste
+casa;140;3;0;2;1;Faxinal Menino Deus;sim;345000;NA;2018;nao;NA;52;afastado;NA;NA;140;sim;nao;sim;nao;nao;nao;nao;nao;nao;medio;usado;norte
+apartamento;54;1;0;1;1;Higienópolis;sim;NA;1300;2019;nao;290;5;proximo;2;nao;51;nao;nao;nao;nao;nao;nao;nao;nao;nao;NA;usado;oeste
+casa;200;3;1;3;2;Santo Inácio;sim;685000;NA;2021;nao;NA;95;proximo;NA;NA;200;sim;sim;sim;sim;nao;nao;nao;nao;sim;medio;seminovo;sul
+apartamento;40;2;0;1;1;Santo Antônio;sim;NA;1200;2020;nao;175;3;afastado;1;nao;38;nao;nao;sim;nao;nao;nao;nao;nao;nao;NA;seminovo;norte
+casa;110;2;0;2;1;Bonfim;sim;365000;NA;2019;nao;NA;55;proximo;NA;NA;110;sim;nao;sim;nao;nao;nao;nao;nao;nao;pequeno;usado;leste
+apartamento;40;1;0;1;0;Universitário;nao informado;NA;1500;2021;nao;180;3;proximo;3;sim;38;nao;nao;nao;nao;sim;nao;nao;nao;nao;NA;seminovo;norte
+casa;165;3;1;2;2;Universitário;sim;485000;NA;2020;nao;NA;72;proximo;NA;NA;165;sim;nao;sim;sim;nao;nao;nao;nao;nao;medio;seminovo;oeste
+apartamento;85;2;0;2;1;Independência;sim;NA;1600;2018;nao;391;4;afastado;2;nao;82;nao;nao;sim;nao;nao;nao;nao;nao;sim;NA;usado;sul
+casa;88;2;0;1;1;Margarida;sim;265000;NA;2017;nao;NA;35;afastado;NA;NA;88;sim;nao;sim;nao;nao;nao;nao;nao;nao;pequeno;usado;norte
+apartamento;74;2;0;2;1;Centro;sim;NA;2500;2020;nao;296;10;centro;3;sim;70;sim;nao;sim;nao;sim;nao;nao;sim;sim;NA;seminovo;leste
+casa;135;3;0;2;2;Avenida;sim;395000;NA;2019;nao;NA;58;proximo;NA;NA;135;sim;nao;sim;nao;nao;nao;nao;nao;nao;medio;usado;norte
+apartamento;80;2;0;2;2;Centro;sim;NA;3600;2021;nao;350;12;centro;5;sim;76;sim;nao;sim;sim;sim;nao;nao;sim;sim;NA;seminovo;oeste
+casa;98;2;0;2;1;Santuário;sim;285000;NA;2018;nao;NA;38;afastado;NA;NA;98;sim;nao;sim;nao;nao;nao;nao;nao;nao;pequeno;usado;sul
+apartamento;87;2;0;1;2;Centro;sim;NA;3650;2022;nao;250;11;centro;4;sim;82;sim;nao;sim;nao;sim;nao;nao;sim;sim;NA;seminovo;norte
+casa;155;3;1;2;2;Higienópolis;sim;625000;NA;2020;nao;NA;98;proximo;NA;NA;155;sim;nao;sim;sim;nao;nao;nao;nao;nao;medio;seminovo;leste
+apartamento;100;3;0;2;2;Centro;sim;NA;2800;2019;nao;350;13;centro;3;sim;95;sim;nao;sim;nao;sim;nao;nao;sim;sim;NA;usado;norte
+casa;72;2;0;1;1;Castelo Branco;sim;235000;NA;2016;nao;NA;32;afastado;NA;NA;72;sim;nao;sim;nao;nao;nao;nao;nao;nao;pequeno;usado;oeste
+apartamento;46;2;0;1;1;Centro;sim;NA;1350;2017;nao;200;5;centro;1;nao;44;nao;nao;sim;nao;nao;nao;nao;nao;nao;NA;usado;sul
+casa;210;4;1;3;3;Goiás;sim;785000;NA;2021;semi;NA;125;proximo;NA;NA;210;sim;sim;sim;sim;nao;nao;nao;nao;sim;medio;seminovo;norte
+apartamento;110;2;0;1;1;Centro;sim;NA;3500;2020;nao;320;14;centro;5;sim;105;sim;nao;sim;nao;sim;nao;nao;sim;sim;NA;seminovo;leste
+casa;82;2;0;1;1;Rauber;sim;215000;NA;2015;nao;NA;28;afastado;NA;NA;82;sim;nao;sim;nao;nao;nao;nao;nao;nao;pequeno;usado;norte
+apartamento;115;3;0;2;2;Centro;sim;NA;5000;2023;semi;450;16;centro;7;sim;108;sim;nao;sim;sim;sim;nao;sim;sim;sim;NA;novo;oeste
+casa;125;3;0;2;1;Belvedere;sim;420000;NA;2019;nao;NA;65;afastado;NA;NA;125;sim;nao;sim;nao;nao;nao;nao;nao;sim;pequeno;usado;sul
+apartamento;300;4;2;4;2;Higienópolis;sim;NA;4300;2018;nao;550;22;proximo;4;sim;285;sim;sim;sim;sim;sim;nao;sim;sim;sim;NA;usado;norte
+casa;175;3;1;2;2;Monte Verde;sim;495000;NA;2020;nao;NA;78;afastado;NA;NA;175;sim;nao;sim;sim;nao;nao;nao;nao;sim;medio;seminovo;leste
+apartamento;217;3;1;3;2;Centro;sim;NA;3800;2021;semi;700;18;centro;6;sim;208;sim;nao;sim;sim;sim;sim;sim;sim;sim;NA;seminovo;norte
+casa;68;2;0;1;1;Germânia;sim;195000;NA;2018;nao;NA;25;afastado;NA;NA;68;sim;nao;sim;nao;nao;nao;nao;nao;nao;pequeno;usado;oeste
+apartamento;64;2;0;1;1;Goiás;sim;NA;2000;2020;nao;250;6;proximo;2;nao;61;nao;nao;sim;nao;nao;nao;nao;nao;sim;NA;seminovo;sul
+casa;300;4;2;4;3;Belvedere;sim;2100000;NA;2024;sim;NA;295;afastado;NA;NA;300;sim;sim;sim;sim;sim;nao;nao;nao;sim;grande;novo;norte
+apartamento;63;1;0;1;1;João Alves;sim;NA;2250;2022;nao;280;5;afastado;4;sim;60;nao;nao;nao;sim;sim;nao;nao;sim;sim;NA;seminovo;leste
+casa;187;3;1;3;2;Belvedere;sim;1340000;NA;2023;nao;NA;185;afastado;NA;NA;187;sim;sim;sim;sim;sim;nao;nao;nao;sim;medio;novo;norte
+apartamento;85;2;0;1;1;Independência;sim;NA;1600;2019;nao;280;5;afastado;1;nao;82;nao;nao;sim;nao;nao;nao;nao;nao;sim;NA;usado;oeste
+casa;90;2;0;2;1;Universitário;sim;340253;NA;2023;nao;NA;55;proximo;NA;NA;90;sim;nao;sim;nao;nao;nao;nao;nao;nao;pequeno;novo;sul
+apartamento;190;3;0;1;2;Higienópolis;sim;NA;5800;2021;semi;1700;19;proximo;5;sim;182;sim;nao;sim;sim;sim;sim;sim;sim;sim;NA;seminovo;norte
+casa;80;2;0;1;1;Universitário;sim;384359;NA;2024;nao;NA;48;proximo;NA;NA;80;sim;nao;sim;sim;nao;nao;nao;nao;nao;pequeno;novo;leste
+apartamento;401;4;2;3;1;Higienópolis;sim;NA;9500;2020;sim;850;22;proximo;6;sim;385;sim;sim;sim;sim;sim;sim;sim;sim;sim;NA;seminovo;norte
+casa;73;1;0;1;1;Universitário;sim;326168;NA;2023;nao;NA;42;proximo;NA;NA;73;sim;nao;sim;nao;nao;nao;nao;nao;nao;pequeno;novo;oeste
+apartamento;297;4;2;4;2;Country;sim;NA;9900;2024;sim;1200;28;afastado;NA;NA;285;sim;sim;sim;sim;sim;sim;sim;sim;sim;NA;novo;sul
+casa;80;1;0;1;1;Universitário;sim;340253;NA;2024;nao;NA;45;proximo;NA;NA;80;sim;nao;sim;nao;nao;nao;nao;nao;nao;pequeno;novo;norte
+apartamento;120;3;1;2;2;Goiás;sim;NA;3000;2022;nao;350;11;proximo;4;sim;115;sim;nao;sim;nao;sim;nao;nao;sim;sim;NA;seminovo;leste
+casa;65;2;0;1;1;João Alves;sim;258000;NA;2020;nao;NA;28;afastado;NA;NA;65;sim;nao;sim;nao;nao;nao;nao;nao;nao;pequeno;seminovo;norte
+apartamento;200;3;1;3;2;Santo Inácio;sim;NA;3600;2019;nao;420;15;proximo;3;sim;192;sim;nao;sim;sim;sim;nao;nao;sim;sim;NA;usado;oeste
+casa;58;3;0;1;1;Pedreira;sim;235000;NA;2022;nao;NA;32;afastado;NA;NA;58;sim;nao;sim;nao;nao;nao;nao;nao;nao;pequeno;seminovo;sul
+apartamento;46;2;0;1;1;Linha Santa Cruz;sim;NA;1350;2018;nao;NA;4;afastado;NA;NA;44;nao;nao;sim;nao;nao;nao;nao;nao;nao;NA;usado;norte
+casa;65;3;0;1;1;Pedreira;sim;268000;NA;2023;nao;NA;35;afastado;NA;NA;65;sim;nao;sim;nao;nao;nao;nao;nao;nao;pequeno;novo;leste
+apartamento;40;1;0;1;1;Centro;sim;NA;850;2015;nao;180;3;centro;1;nao;38;nao;nao;nao;nao;nao;nao;nao;nao;nao;NA;usado;norte
+casa;108;3;0;2;1;São João;sim;315000;NA;2017;nao;NA;45;afastado;NA;NA;108;sim;nao;sim;nao;nao;nao;nao;nao;nao;medio;usado;oeste
+apartamento;110;2;0;1;1;Santo Inácio;sim;NA;3500;2021;nao;110;12;proximo;2;nao;105;sim;nao;sim;nao;nao;nao;nao;nao;sim;NA;seminovo;sul
+casa;95;2;0;2;1;Santo Antônio;sim;275000;NA;2018;nao;NA;32;afastado;NA;NA;95;sim;nao;sim;nao;nao;nao;nao;nao;nao;pequeno;usado;norte
+apartamento;147;3;0;2;1;João Alves;sim;NA;2800;2020;nao;280;12;afastado;2;nao;140;sim;nao;sim;nao;nao;nao;nao;sim;sim;NA;seminovo;leste
+casa;130;3;0;2;2;Aliança;sim;385000;NA;2019;nao;NA;52;afastado;NA;NA;130;sim;nao;sim;nao;nao;nao;nao;nao;nao;medio;usado;norte
+apartamento;65;1;0;1;1;Centro;sim;NA;5000;2024;sim;535;7;centro;10;sim;62;sim;nao;nao;sim;sim;sim;sim;sim;sim;NA;novo;oeste

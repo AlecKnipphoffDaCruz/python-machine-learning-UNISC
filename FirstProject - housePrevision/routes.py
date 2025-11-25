@@ -8,7 +8,6 @@ router = APIRouter()
 
 @router.get("/")
 def root():
-    """Endpoint raiz com informações da API"""
     return {
         "message": "API de Previsão de Preços de Casas",
         "status": "online",
@@ -16,59 +15,29 @@ def root():
         "endpoints": {
             "prever": "/prever",
             "prever_multiplas": "/prever/batch",
-            "regioes_disponiveis": "/regioes",
             "health": "/health",
             "documentacao": "/docs"
         }
     }
 
 
-@router.get("/regioes")
-def get_regioes():
-    """Retorna as regiões disponíveis para previsão"""
+@router.post("/prever", response_model=PrevisaoOutput)
+def prever_preco(casa: CasaInput):
     if not ml_service.modelo_carregado():
         raise HTTPException(status_code=500, detail="Modelo não carregado")
 
-    regioes = ml_service.obter_regioes()
+    dados = casa.dict()
+    preco_previsto = ml_service.prever(dados)
 
-    return {
-        "regioes_disponiveis": regioes,
-        "total": len(regioes)
-    }
-
-
-@router.post("/prever", response_model=PrevisaoOutput)
-def prever_preco(casa: CasaInput):
-    """Endpoint para prever o preço de uma casa"""
-    if not ml_service.modelo_carregado():
-        raise HTTPException(
-            status_code=500,
-            detail="Modelo não carregado. Verifique se os arquivos .pkl existem."
-        )
-
-    try:
-        preco_previsto = ml_service.prever(
-            area=casa.area,
-            quartos=casa.quartos,
-            banheiros=casa.banheiros,
-            regiao=casa.regiao
-        )
-
-        return PrevisaoOutput(
-            preco_previsto=preco_previsto,
-            dados_entrada=casa.dict(),
-            status="success"
-        )
-
-    except ValueError as e:
-        raise HTTPException(status_code=400, detail=str(e))
-    except Exception as e:
-        raise HTTPException(status_code=500, detail=f"Erro ao fazer previsão: {str(e)}")
+    return PrevisaoOutput(
+        preco_previsto=preco_previsto,
+        dados_entrada=dados,
+        status="success"
+    )
 
 
 @router.post("/prever/batch")
 def prever_multiplas_casas(casas: List[CasaInput]):
-    """Endpoint para prever preços de múltiplas casas"""
     if not ml_service.modelo_carregado():
         raise HTTPException(status_code=500, detail="Modelo não carregado")
 
@@ -76,12 +45,7 @@ def prever_multiplas_casas(casas: List[CasaInput]):
 
     for i, casa in enumerate(casas):
         try:
-            preco_previsto = ml_service.prever(
-                area=casa.area,
-                quartos=casa.quartos,
-                banheiros=casa.banheiros,
-                regiao=casa.regiao
-            )
+            preco_previsto = ml_service.prever(casa.dict())
 
             resultados.append({
                 "index": i,
@@ -106,13 +70,9 @@ def prever_multiplas_casas(casas: List[CasaInput]):
 
 @router.get("/health", response_model=HealthResponse)
 def health_check():
-    """Verifica se a API e o modelo estão funcionando"""
-    colunas_carregadas = ml_service.colunas is not None
-
     return HealthResponse(
         status="healthy" if ml_service.modelo_carregado() else "unhealthy",
         modelo_carregado=ml_service.modelo is not None,
-        colunas_carregadas=colunas_carregadas,
-        total_colunas=len(ml_service.colunas) if colunas_carregadas else 0
+        colunas_carregadas=ml_service.features is not None,
+        total_colunas=len(ml_service.features) if ml_service.features else 0
     )
-
