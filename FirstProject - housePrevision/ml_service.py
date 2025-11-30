@@ -11,7 +11,7 @@ class MLService:
 
     def carregar_modelo(self):
         try:
-            self.modelo = joblib.load(settings.MODEL_PATH)   # pipeline completo
+            self.modelo = joblib.load(settings.MODEL_PATH)   
             self.features = joblib.load(settings.COLUMNS_PATH)
             print("Modelo e features carregados.")
         except Exception as e:

@@ -1,11 +1,9 @@
 import pandas as pd
 import joblib
 
-# Carregar pipeline completo (pré-processamento + modelo)
 modelo = joblib.load("models/best_model.pkl")
 features = joblib.load("models/columns.pkl")
 
-# --- Dados novos (somente as features brutas) ---
 dados = {
     "tipo_imovel": "casa",
     "area_m2": 120,
@@ -36,10 +34,8 @@ dados = {
     "orientacao_solar": "norte",
 }
 
-# Criar DataFrame com apenas as colunas brutas
 df = pd.DataFrame([dados], columns=features)
 
-# Previsão (pipeline cuida de tudo!)
 preco = modelo.predict(df)[0]
 
 print(f"Preço previsto: R$ {preco:,.2f}")

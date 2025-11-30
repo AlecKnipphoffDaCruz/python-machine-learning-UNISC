@@ -1,4 +1,3 @@
-# train_model.py
 import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split
@@ -12,9 +11,7 @@ from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 import joblib
 import os
 
-# ===============================================
-# CONFIGURAÇÕES
-# ===============================================
+
 CSV_PATH = "data/houses.csv"
 MODEL_DIR = "models"
 MODEL_PATH = os.path.join(MODEL_DIR, "best_model.pkl")
@@ -24,24 +21,16 @@ TARGET = "preco_venda"
 
 os.makedirs(MODEL_DIR, exist_ok=True)
 
-# ===============================================
-# 1. CARREGAR CSV
-# ===============================================
 df = pd.read_csv(CSV_PATH, sep=";", encoding="utf-8")
 print("Loaded:", df.shape)
 
-# ===============================================
-# 2. LIMPEZA E NORMALIZAÇÃO
-# ===============================================
 df.columns = [c.strip().lower() for c in df.columns]
 
-# Substituir tokens de NA
 df.replace({
     "NA": np.nan, "na": np.nan,
     "nao informado": np.nan, "": np.nan
 }, inplace=True)
 
-# Booleanos que queremos transformar
 binary_cols = [
     "mobiliado", "elevador", "churrasqueira", "piscina", "area_servico",
     "armarios_embutidos", "seguranca_24h", "playground", "academia",
@@ -54,7 +43,6 @@ for col in binary_cols:
     if col in df.columns:
         df[col] = df[col].str.lower().map(binary_map)
 
-# Numéricos que devem ser convertidos
 numeric_cols = [
     "area_m2", "quartos", "suites", "banheiros", "vagas_garagem",
     "condominio_valor", "iptu_mensal", "ano_construcao", "area_privativa_m2"
@@ -64,13 +52,9 @@ for col in numeric_cols:
     if col in df.columns:
         df[col] = pd.to_numeric(df[col], errors="coerce")
 
-# Remover linhas com target ausente
 df[TARGET] = pd.to_numeric(df[TARGET], errors="coerce")
 df = df[df[TARGET].notna()]
 
-# ===============================================
-# 3. FEATURES USADAS
-# ===============================================
 features = [
     "tipo_imovel", "area_m2", "quartos", "suites", "banheiros",
     "vagas_garagem", "bairro", "pet_friendly", "mobiliado",
@@ -86,16 +70,10 @@ features = [f for f in features if f in df.columns]
 X = df[features].copy()
 y = df[TARGET].copy()
 
-# ===============================================
-# 4. SPLIT
-# ===============================================
 X_train, X_test, y_train, y_test = train_test_split(
     X, y, test_size=0.2, random_state=42
 )
 
-# ===============================================
-# 5. PIPELINES DE PRÉ-PROCESSAMENTO
-# ===============================================
 num_features = [c for c in features if c in numeric_cols]
 cat_features = [c for c in features if c not in numeric_cols]
 
@@ -114,9 +92,6 @@ preprocessor = ColumnTransformer([
     ("cat", categorical_transformer, cat_features)
 ])
 
-# ===============================================
-# 6. MODELOS
-# ===============================================
 models = [
     ("LinearRegression", LinearRegression()),
     ("RandomForest", RandomForestRegressor(
@@ -128,9 +103,6 @@ models = [
 
 results = []
 
-# ===============================================
-# 7. TREINAR E AVALIAR
-# ===============================================
 for name, model in models:
     print(f"\nTraining: {name}")
 
@@ -152,9 +124,6 @@ for name, model in models:
     results.append((name, pipe, rmse))
 
 
-# ===============================================
-# 8. SALVAR MELHOR MODELO
-# ===============================================
 best_name, best_model, best_rmse = sorted(results, key=lambda x: x[2])[0]
 
 joblib.dump(best_model, MODEL_PATH)
@@ -171,4 +140,3 @@ print("Melhor modelo:", best_name)
 print("Salvo em:", MODEL_PATH)
 print("Colunas salvas em:", COLUMNS_PATH)
 print("===================================")
-# ===============================================
